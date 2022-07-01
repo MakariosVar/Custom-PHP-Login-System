@@ -1,0 +1,67 @@
+
+body{
+	/*background-color: #E8D173;
+*/
+	background-color: white;
+
+}
+.status{
+	font-size: 80px;
+	color: black;
+}
+.site-header{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	background-color: #3303B8;
+
+
+}
+.site-header__wrapper {
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo {
+	width: 100px;
+	margin: 5px;
+}
+.nav{
+	margin: 5px;
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.navtext{
+	color: white;
+	font-size: 20px;
+	margin: 10px;
+}
+.loginout{
+	margin: 5px;
+}
+.wrapperLOG{
+	display: flex;
+	flex-direction: column;
+}
+.signupbutton{
+	font-size: 20px;
+	color: white;
+}
+.WrapperOUT{
+	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.LogoutName{
+	color: red;
+	font-size: 25px;
+	margin: 10px;
+}
+.logoutHeader{
+	color: white;
+	font-size: 15px;
+	margin: 10px;
+}
